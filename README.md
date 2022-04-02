@@ -1,6 +1,6 @@
 # raspberrykeysniffer
 ### **PROJECT IS UNDER MAINTENANCE**
-Hak5 Keycroc for people who don't own the wealth of elon musk. Sniffs Keyboard Input and (SOON: creates an wifi acces point to look at input).
+Hak5 Keycroc for people who don't own the wealth of elon musk and just a Raspberry Pi. This project sniffs keyboard input and (SOON: creates an wifi acces point to look at input remotely).
 Description will come SOON
 
 What this project does is that it captures usb keystrokes from the one side and sends it to the computer on the other while it logs the input.
