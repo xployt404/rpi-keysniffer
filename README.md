@@ -16,7 +16,7 @@ What this project does is that it captures usb keystrokes from the one side and 
 2. connect to it via ssh (doesnt really matter how just be able to connect to it)
 3. start the setup.sh script
 4. connect both keyboard to the pi and the pi to the computer
-5. now it stores the keyboard strokes in a text file ("/.../raspberrykeysniffer/sniffkeys/")
+5. now it stores the keyboard strokes in a text file (when installed normally in your home directory)
 6. Wifi Access Point is going to be added soon
 
 Thanks to https://github.com/n0rc for the code to send the key strokes.
