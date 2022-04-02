@@ -39,7 +39,7 @@ then
   answer=True
   modules                     #add modules
   rm -rf /etc/rc.local        #replace rc.local
-  mv rc.local /etc/rc.local
+  cp rc.local /etc/rc.local
   sudo reboot
 elif [[ $YorN = 'n' ]];       #user didnt agree
 then
