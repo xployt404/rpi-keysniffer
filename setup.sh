@@ -38,8 +38,8 @@ if [[ $YorN = 'Y' ]];         #user agreed
 then
   answer=True
   modules                     #add modules
-  rm -rf /etc/rc.local        #replace rc.local
-  cp rc.local /etc/rc.local
+  sudo rm -rf /etc/rc.local        #replace rc.local
+  sudo cp rc.local /etc/rc.local
   sudo reboot
 elif [[ $YorN = 'n' ]];       #user didnt agree
 then
