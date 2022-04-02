@@ -16,5 +16,5 @@ _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
-/home/pi/rpi-remote-keyboard/gadgetsetup.sh
+/home/pi/rpi-keysniffer/gadgetsetup.sh
 exit 0
