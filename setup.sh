@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 clear
 RED='\033[0;31m'
 BLUE='\033[0;34m'
