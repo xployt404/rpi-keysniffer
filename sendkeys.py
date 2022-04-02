@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# this script send the user input to the computer
 import keycodes
 import os
 import re
