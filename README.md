@@ -7,7 +7,7 @@ What this project does is that it captures usb keystrokes from the one side and 
 ## Requirements
 1. Raspberry Pi which supports wifi and the usb emulation feature (popular ones for example are Pi Zero W or 3B+)
 2. USB cable(s)
-(if you use a Raspberry Pi Zero W)
+**(if you use a Raspberry Pi Zero W)**
 3. either be able to solder a second usb connector to the pi zero w's GPIO pins or buy an extension to have more usb ports. 
 
 
