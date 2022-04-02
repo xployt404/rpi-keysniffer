@@ -19,5 +19,5 @@ What this project does is that it captures usb keystrokes from the one side and 
 5. now it stores the keyboard strokes in a text file (when installed normally in your home directory)
 6. Wifi Access Point is going to be added soon
 
-# How it works
+## How it works
 Thanks to https://github.com/n0rc for the code to send the key strokes.
