@@ -19,6 +19,7 @@ What this project does is that it captures usb keystrokes from the one side and 
 | GND           | GND                   | GND     | 
 
 | 3.3V (Pin1)   | LV/HV                 | VCC     |
+
 2. flash Raspberry Pi OS Lite (Raspbian Lite) to a micro SD card and insert it into the Pi.
 3. connect to it via ssh (doesnt really matter how, just be able to connect to it)
 4. git clone this repository to your pi
