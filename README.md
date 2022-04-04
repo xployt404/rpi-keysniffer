@@ -11,7 +11,7 @@ What this project does is that it captures usb keystrokes from the one side and 
 5. cables to connect circuit for example simple jumper wires 
 
 ## Setup
-First of all wire the circuit as shown down below. You can see the Pinouts of each device down below. Just wire the Logic Level Converter inbetween. <br/>
+First of all wire the circuit as shown down below. You can see the Pinouts of each device in the following pictures. Just wire the Logic Level Converter inbetween. <br/>
   Raspberry Pi -->  Logic Level Converter -->  Arduino<br/>
   GND --> GND -->                   GND<br/>
   3.3V Pin -->      LV/HV   -->               VCC<br/>
