@@ -11,7 +11,7 @@ What this project does is that it captures usb keystrokes from the one side and 
 5. cables to connect circuit for example simple jumper wires 
 
 ## Setup
-1. wire the circuit as shown in the picture down below
+1. wire the circuit as shown in the picture down below ![grafik](https://user-images.githubusercontent.com/101953958/161614461-36f30043-1680-45f8-aa02-786629012f36.png)
 2. flash Raspberry Pi OS Lite (Raspbian Lite) to a micro SD card and insert it into the Pi.
 3. connect to it via ssh (doesnt really matter how, just be able to connect to it)
 4. git clone this repository to your pi
@@ -20,3 +20,4 @@ What this project does is that it captures usb keystrokes from the one side and 
 7. start keysniffer.py
 8. now it stores the keyboard strokes in a text file **(keys.txt)** usually in your **/home/pi** directory) and the victim won't notice anything :) *(if doesnt find the circuit hidden under its table of course)
 9. Wifi Access Point is going to be added soon
+
