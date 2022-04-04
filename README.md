@@ -12,23 +12,13 @@ What this project does is that it captures usb keystrokes from the one side and 
 
 ## Setup
 1. wire the circuit as shown in the picture down below <br/>
-| Raspberry Pi  | Logic Level Converter | Arduino |
-
-| ------------- | -------------------   | ------- |
-
-| GND           | GND                   | GND     | 
-
-| 3.3V (Pin1)   | LV/HV                 | VCC     |
-
-| Column 1 Header | Column 2 Header | Column 3 Header |
-
-| --------------- | --------------- | --------------- |
-
-| Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
-
-| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
-
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
+  Raspberry Pi  Logic Level Converter Arduino
+  GND           GND                   GND
+  3.3V Pin      LV/HV                 VCC
+  SDA Pin       LV1/HV1               SDA (on Pro Micro it is Pin A2)
+  SCL Pin       LV2/HV2               SCL (on Pro Micro it is Pin A3)
+  
+  **NOTE THAT YOU CONNECT THE LV SIDE TO THE RASPBERRY PI AND THE HV SIDE TO THE ARDUINO OTHERWISE YOU MIGHT DESTROY YOUR PI**
 2. flash Raspberry Pi OS Lite (Raspbian Lite) to a micro SD card and insert it into the Pi.
 3. connect to it via ssh (doesnt really matter how, just be able to connect to it)
 4. git clone this repository to your pi
