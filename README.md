@@ -19,11 +19,10 @@ First of all wire the circuit as shown down below. You can see the Pinouts of ea
   SCL Pin -->       LV2/HV2 -->               SCL (on Pro Micro it is Pin A3)<br/>
   
   **NOTE THAT YOU CONNECT THE LV SIDE TO THE RASPBERRY PI AND THE HV SIDE TO THE ARDUINO OTHERWISE YOU MIGHT DESTROY YOUR PI** <br/>
-1.
-2. flash Raspberry Pi OS Lite (Raspbian Lite) to a micro SD card and insert it into the Pi.<br/>
-3. connect to it via ssh (doesnt really matter how, just be able to connect to it)<br/>
-4. git clone this repository to your pi<br/>
-5. start the setup.sh script **(don't run it again after completed installation)**<br/>
-6. connect both keyboard to the pi and the pi to the computer<br/>
-7. start keysniffer.py
-8. now it stores the keyboard strokes in a text file **(keys.txt)** usually in your **/home/pi** directory) and the victim won't notice anything :) <br/>*if doesnt find the circuit hidden under its table of course
+1. flash Raspberry Pi OS Lite (Raspbian Lite) to a micro SD card and insert it into the Pi.
+2. connect to it via ssh (doesnt really matter how, just be able to connect to it)
+3. git clone this repository to your pi
+4. start the setup.sh script **(don't run it again after completed installation)**
+5. connect both keyboard to the pi and the pi to the computer
+6. start keysniffer.py
+7. now it stores the keyboard strokes in a text file **(keys.txt)** usually in your **/home/pi** directory) and the victim won't notice anything :) <br/>*if doesnt find the circuit hidden under its table of course 
