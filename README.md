@@ -18,14 +18,14 @@ First of all wire the circuit as shown down below. You can see the Pinouts of ea
   SDA Pin -->       LV1/HV1 -->               SDA (on Pro Micro it is Pin A2)<br/>
   SCL Pin -->       LV2/HV2 -->               SCL (on Pro Micro it is Pin A3)<br/>
   <br/>
-  **Raspberry Pi Pinout (the same on every model usually)**
+  **Raspberry Pi Pinout (the same on every model usually)**<br/>
   ![PI](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5w6o5TavjJgsAIlh1BZNBQHaFM%26pid%3DApi&f=1)
-  <br/>
-  **Arduino Pro Micro Pinout (different on every model be careful)**
+  <br/><br/>
+  **Arduino Pro Micro Pinout (different on every model be careful)**<br/>
   ![Arduino](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.4ccj1-oQ7_8lGOeUml67cQHaGL%26pid%3DApi&f=1)
-  <br/>
-  **Logic Level Converter Pinout (search for 5V to 3.3V converter should look like this)**
-  ![LogicLevel](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.jq4Lwx2Q2INxi24Z5HDjzAHaHa%26pid%3DApi&f=1)
+  <br/><br/>
+  **Logic Level Converter Pinout (search for 5V to 3.3V converter should look like this)**<br/>
+  ![LogicLevel](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.jq4Lwx2Q2INxi24Z5HDjzAHaHa%26pid%3DApi&f=1)<br/><br/>
   **NOTE THAT YOU CONNECT THE LV SIDE TO THE RASPBERRY PI AND THE HV SIDE TO THE ARDUINO OTHERWISE YOU MIGHT DESTROY YOUR PI** <br/>
 1. flash Raspberry Pi OS Lite (Raspbian Lite) to a micro SD card and insert it into the Pi.
 2. connect to it via ssh (doesnt really matter how, just be able to connect to it)
