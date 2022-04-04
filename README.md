@@ -4,20 +4,20 @@ Hak5 Keycroc for people who don't own the wealth of elon musk and just a Raspber
 
 What this project does is that it captures usb keystrokes from the one side and sends it to the computer on the other while it logs the input.
 ## Requirements
-1. Raspberry Pi which supports wifi and the usb emulation feature (popular ones for example are Pi Zero W or 3B+)
-2. USB cable(s)
-**(if you use a Raspberry Pi Zero W)**
-3. either be able to solder a second usb connector to the pi zero w's GPIO pins or buy an extension to have more usb ports. 
-
+1. Raspberry Pi which supports wifi (popular ones for example are Pi Zero W or 3B+)
+2. USB cable (able to transmit data)
+3. Arduino (would recommend the pro micro because it's cheap and small)
+4. Logic Level Converter (5v to 3.3V)
+5. cables to connect circuit for example simple jumper wires 
 
 ## Setup
-1. flash Raspberry Pi OS Lite (Raspbian Lite) to a micro SD card and insert it into the Pi.
-2. connect to it via ssh (doesnt really matter how just be able to connect to it)
-3. git clone this repository to your pi
-4. start the setup.sh script **(don't run it again after completed installation)**
-5. connect both keyboard to the pi and the pi to the computer
-6. start keysniffer.py
-7. now it stores the keyboard strokes in a text file **(keys.txt)** usually in your **/home/pi** directory)
-8. Wifi Access Point is going to be added soon
-
-Thanks to https://github.com/n0rc for the code to send the key strokes.
+1. wire the circuit as shown in the picture down below
+2. flash Raspberry Pi OS Lite (Raspbian Lite) to a micro SD card and insert it into the Pi.
+3. connect to it via ssh (doesnt really matter how, just be able to connect to it)
+4. git clone this repository to your pi
+5. start the setup.sh script **(don't run it again after completed installation)**
+6. connect both keyboard to the pi and the pi to the computer
+7. start keysniffer.py
+8. now it stores the keyboard strokes in a text file **(keys.txt)** usually in your **/home/pi** directory)
+  and the victim won't notice anything :) *if doesnt find the circuit hidden under its table of course
+9. Wifi Access Point is going to be added soon
