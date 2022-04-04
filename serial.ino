@@ -16,12 +16,6 @@ void receiveEvent(int howMany) {
   while (Wire.available()) { // loop through all but the last
     char c = Wire.read(); // receive byte as a character
     Keyboard.print(c);
-    if (c == 1) {
-      Keyboard.print("c");
-        
-    }else{
-      Keyboard.print("none");
-      }
   }
 }
 void loop() {
