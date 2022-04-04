@@ -18,5 +18,5 @@ What this project does is that it captures usb keystrokes from the one side and 
 5. start the setup.sh script **(don't run it again after completed installation)**
 6. connect both keyboard to the pi and the pi to the computer
 7. start keysniffer.py
-8. now it stores the keyboard strokes in a text file **(keys.txt)** usually in your **/home/pi** directory) and the victim won't notice anything :)       *if doesnt find the circuit hidden under its table of course
+8. now it stores the keyboard strokes in a text file **(keys.txt)** usually in your **/home/pi** directory) and the victim won't notice anything :) *(if doesnt find the circuit hidden under its table of course)
 9. Wifi Access Point is going to be added soon
