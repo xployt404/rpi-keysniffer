@@ -25,4 +25,4 @@ First of all wire the circuit as shown down below. You can see the Pinouts of ea
 4. start the setup.sh script **(don't run it again after completed installation)**
 5. connect both keyboard to the pi and the pi to the computer
 6. start keysniffer.py
-7. now it stores the keyboard strokes in a text file **(keys.txt)** usually in your **/home/pi** directory) and the victim won't notice anything :) <br/>*if doesnt find the circuit hidden under its table of course 
+7. now it stores the keyboard strokes in a text file **(keys.txt)** usually in your **/home/pi** directory) and the victim won't notice anything :) <br/>*if it doesnt find the circuit hidden under its table of course 
