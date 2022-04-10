@@ -33,5 +33,5 @@ First of all wire the circuit as shown down below. You can see the Pinouts of ea
 3. git clone this repository to your pi
 4. start the setup.sh script **(don't run it again after completed installation)**
 5. connect both keyboard to the pi and the pi to the computer
-6. start keysniffer.py
+6. usually the script starts automatically becuase of the change in rc.local but you can start it manually if you want
 7. now it stores the keyboard strokes in a text file **(keys.txt)** usually in **/home/pi/rpi-keysniffer** and the victim won't notice anything :) <br/>*if it doesnt find the circuit hidden under its table of course 
