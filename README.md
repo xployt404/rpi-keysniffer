@@ -1,5 +1,5 @@
 # raspberrykeysniffer
-### **PROJECT IS UNDER MAINTENANCE**
+### **PROJECT STILL HAS ALOT OF SPHAGETTI CODE I AM AWARE OF THAT**
 Hak5 Keycroc for people who don't own the wealth of elon musk and just a Raspberry Pi. Go see for yourself how expensive that stuff is: https://shop.hak5.org/products/key-croc. This project **sniffs keyboard input and (SOON: creates an wifi acces point to look at input remotely).**
 
 What this project does is that it captures usb keystrokes from the one side and sends it to the computer on the other while it logs the input.
