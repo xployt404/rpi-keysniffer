@@ -13,7 +13,7 @@ What this project does is that it captures usb keystrokes from the one side and 
 ## Setup
 First of all wire the circuit as shown down below. You can see the Pinouts of each device in the following pictures. Just wire the Logic Level Converter inbetween. <br/>
   Raspberry Pi -->  Logic Level Converter -->  Arduino<br/>
-  GND --> GND -->                   GND<br/>
+  GND -->            GND    -->               GND<br/>
   3.3V Pin -->      LV/HV   -->               VCC<br/>
   SDA Pin -->       LV1/HV1 -->               SDA (on Pro Micro it is Pin A2)<br/>
   SCL Pin -->       LV2/HV2 -->               SCL (on Pro Micro it is Pin A3)<br/>
