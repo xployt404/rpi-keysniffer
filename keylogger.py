@@ -21,7 +21,8 @@ modifiers={
     "right"     : (18,  None),
     "up"        : (19,  None),
     "down"      : (20,  None),
-    "caps lock" : (178, None)
+    "caps lock" : (178, None),
+    "tab".      : (9,   None),
 }
 
 # function that converts pressed letters to sendable ASCII values
