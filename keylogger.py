@@ -38,7 +38,7 @@ while True:
     # only record if event is a press down
     if event.event_type == keyboard.KEY_DOWN:
         if name == "space":
-             subprocess.run(["/bin/sh", pathtologSH, "y"])
+             subprocess.run(["/bin/sh", pathtologSH, " "])
         elif name == "y":
             subprocess.run(["/bin/sh", pathtologSH, "z"])
         elif name == "z":
