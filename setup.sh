@@ -30,9 +30,7 @@ echo -e "${BLUE}╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱�
 ╱╱╰╯╱╱╱╱╱╱╱╱╱╱╱╰━━╯"
 echo -e "${NC}\nWelcome to the rpi-keysniffer, press ENTER to continue."
 read
-echo -e "++++ this bash script is going to replace the rc.local of your pi ++++"
-echo -e "++++ your machine will be restarted afterwards ++++"
-echo ""
+echo -e "++++ necessary packets will be installed ++++"
 
 while [[ $answer = False ]]; do
 read -p "Do you agree? [Y/n]: " YorN
