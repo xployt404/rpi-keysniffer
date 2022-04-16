@@ -31,9 +31,25 @@ First of all wire the circuit as shown down below. You can see the Pinouts of ea
 ### After Wiring
 1. flash Raspberry Pi OS Lite (Raspbian Lite) to a micro SD card and insert it into the Pi.
 2. connect to it via ssh (doesnt really matter how, just be able to connect to it)
-3. git clone this repository to your pi
-4. load the serial.ino script onto the Arduino
-5. start the setup.sh script **(don't run it again after completed installation)**
-6. connect both keyboard to the pi and the pi to the computer
-7. usually the script starts automatically becuase of the change in rc.local but you can start it manually if you want
-8. now it stores the keyboard strokes in a text file **(keys.txt)** usually in **/home/pi/rpi-keysniffer** and the victim won't notice anything :) <br/>*if it doesnt find the circuit hidden under its table of course 
+```
+ssh pi@<ip address of your pi>
+```
+3. git clone this repository to your pi and download the serial.ino script from this repository to your computer
+```
+git clone https://github.com/xployt404/rpi-keysniffer.git
+```
+4. install Arduino IDE on your computer
+5. load the serial.ino script onto the Arduino with your computer and Arduino IDE
+6. start the setup.sh script **(don't run it again after completed installation)**
+```
+bash setup.sh
+```
+7. connect both keyboard to the pi and the Arduino to the target computer
+8. ssh into your pi again and start the keylogger.py python script
+```
+ssh pi@<ip address of your pi>
+```
+```
+sudo python3 keylogger.py
+```
+9. now it stores the keyboard strokes in a text file **(keys.txt)** usually in **/home/pi/rpi-keysniffer** and the victim won't notice anything :) <br/>*if it doesnt find the circuit hidden under its table of course 
