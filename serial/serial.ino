@@ -62,5 +62,4 @@ void receiveEvent(int howMany) {
 }
 // USELESS LOOP
 void loop() {
-  delay(10);
 }
